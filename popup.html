@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Santa-as-a-Service</title>
+        <style type="text/css">
+
+            html, body{
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                font-family: sans-serif;
+                font-size: 14px;
+            }
+
+            header{
+                width: 100%;
+                background-color: #694b37;
+                color: white;
+                box-sizing: border-box;
+                padding: 0.5em 1em;
+                display: flex;
+                position: fixed;
+                top:0;
+            }
+
+            header img{
+                width: 30px;
+                margin-right: 1em;
+                align-self: center;
+            }
+
+            body{
+                background-color: rgb(245,245,245);
+                min-width: 350px;
+                padding-top: 30px;
+            }
+
+            header h1{
+                font-weight: 400;
+                font-size: 14px;
+            }
+
+            ul, li{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+            }
+
+            ul{
+                flex-direction: column;
+            }
+
+            ul li{
+                flex-direction: row;
+                margin-bottom: 1em;
+                min-height: 140px;
+                box-sizing: border-box;
+                padding: 0 0.5em;
+                border: 1px solid #d6d6d6;
+                border-width: 1px 0 1px 0;
+                background: white;
+            }
+
+            ul li img{
+                margin-right: 1em;
+                width: 100px;
+                height: auto;
+                align-self: center;
+            }
+
+            ul li h4{
+                font-size: 1.2em;
+            }
+
+            ul li h4, ul li a, ul li p{
+                margin-bottom: 0.5em;
+                margin-top: 0;
+                display: inline-block;
+            }
+
+            ul li section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <header>
+            <img src="icons/ai01_logo.png" /><h1>Seed recommends:</h1>
+        </header>
+
+        <ul>
+
+            <li>
+                <img src="suggested1.jpeg" />
+                <section>
+
+                    <h4>Adidas Black Sweater</h4>
+                    <a href="https://ebay.co.uk"> eBay.co.uk</a>
+                    <p>&#163;15.00</p>
+
+                </section>
+            </li>
+
+            <li>
+                <img src="suggested2.jpeg" />
+                <section>
+
+                    <h4>Ellesse Striped Sweater</h4>
+                    <a href="https://depop.co.uk"> depop.co.uk</a>
+                    <p>&#163;18.99</p>
+
+                </section>
+            </li>
+
+            <li>
+                <img src="suggested3.jpeg" />
+                <section>
+
+                    <h4>Nike Black Sweater</h4>
+                    <a href="https://oxfam.org.uk/shop"> oxfam.org.uk</a>
+                    <p>&#163;19.99</p>
+
+                </section>
+            </li>
+
+            <li>
+                <img src="suggested4.jpeg" />
+                <section>
+
+                    <h4>Nike Blue Sweater</h4>
+                    <a href="https://ebay.co.uk"> eBay.co.uk</a>
+                    <p>&#163;16</p>
+
+                </section>
+            </li>
+
+        </ul>
+
+    </body>
+
+</html>
